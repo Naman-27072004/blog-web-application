@@ -72,7 +72,7 @@ blog-capstone/
 ## 🚀 Getting Started
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Naman-27072004/blog-web-application.git
 cd blog-capstone
 ```
 ### 2️⃣ Install Dependencies
