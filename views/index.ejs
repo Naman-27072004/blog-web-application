@@ -9,9 +9,8 @@
     <li>
       <h2><%= post.title %></h2>
       <p><%= post.content %></p>
-      <button><a href="/posts/<%= index %>/edit">Edit</a></button>
-      <form action="/posts/<%= index %>" method="POST" style="display: inline">
-        <input type="hidden" name="_method" value="DELETE" />
+      <button><a href="/posts/<%= post.id %>/edit">Edit</a></button>
+      <form action="/posts/<%= post.id %>/delete" method="POST" style="display: inline">
         <button type="submit">Delete</button>
       </form>
     </li>

@@ -2,7 +2,7 @@
 <%- include("partials/header.ejs") %>
 <link rel="stylesheet" href="/css/styles.css" />
 
-<form action="/posts/<%= id %>" method="POST">
+<form action="/posts/<%= post.id %>" method="POST">
   <div class="edit">
     <input type="text" name="title" value="<%= post.title %>" required />
     <textarea name="content" required><%= post.content %></textarea>
